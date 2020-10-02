@@ -14,7 +14,6 @@
 .Trash-*
 
 # .nfs files are created when an open file is removed but is still being accessed
-.DS_Store
 .nfs*
 
 ### Node ###
@@ -86,7 +85,7 @@ typings/
 
 # nuxt.js build output
 .nuxt
-
+.DS_Store
 # vuepress build output
 .vuepress/dist
 
