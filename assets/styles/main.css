@@ -649,7 +649,115 @@ svg
 
 .banner
 {
-    background-color: rgba(255, 192, 203, .5);
+    margin-top: 24px;
+    padding: 90px 0;
+}
+.banner__container
+{
+    padding: 0;
+}
+.banner__contentLeft
+{
+    padding: 40px 15px;
+}
+.banner__title
+{
+    font-family: 'Bebas Neue';
+    font-size: 120px;
+    line-height: .917; 
+
+    color: #313656;
+}
+.banner__copy
+{
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 2.273;
+
+    padding-top: 80px; 
+
+    text-align: left;
+
+    color: #8c969f;
+}
+.banner__travel
+{
+    display: inline-flex;
+}
+.banner__Rectangle2
+{
+    width: 154px;
+    height: 154px; 
+
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #b765d9 0%, #ee609c 100%);
+}
+.banner__Booking
+{
+    padding: 50px 0;
+}
+.banner__BookTICKETSOnline
+{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    line-height: 1;
+
+    padding: 30px 40px 0; 
+
+    text-align: center;
+
+    color: white;
+}
+.banner__airImg
+{
+    position: absolute;
+    top: -50px; 
+
+    width: 178px;
+    height: 176px;
+    margin-left: 290px;
+}
+.banner__Group1
+{
+    left: 0; 
+
+    width: 238px;
+    height: 238px;
+    margin-top: 30px;
+    margin-left: 60px;
+
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #4cb6bf 0%, #a6ea9d 100%);
+}
+.banner__Group1Img
+{
+    display: block;
+
+    width: 50%; 
+    margin-top: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner__buttonTrip,
+.banner__buttonBookTrip
+{
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+
+    width: 200px;
+    height: 65px;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(-180deg, #fa76b7 0%, #ffc3ab 100%);
+    text-shadow: 0 10px 15px rgba(49, 54, 86, .3);
+}
+
+.values
+{
+    background-color: rgba(0, 128, 0, .3);
 }
 
 @media screen and (max-width: 522px)
