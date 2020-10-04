@@ -7,6 +7,8 @@
   <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
   <title>Travelry App</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="./assets/styles/main.css">
 </head>
 <body>
@@ -80,31 +82,194 @@
        </div>
      </div>
     </div>
-    <section class="values">
-      <div class="values__container container">
-        <div class="row">
-          <div class="col-5">
-            <div class="row">Accommondation</div>
-            <div class="row">Expert Trip Planning</div>
-          </div>
-          <div class="col-5">
-            <div class="row">
-              <p class="values__planTrip">
-                Plan Your Trip With Us
-              </p>
-              Try our services
+  </div>
+  <section class="values">
+    <div class="values__container container">
+      <div class="row">
+        <div class="col-6 values__Group1">
+          <div class="row values__accommodation">
+            <div class="values__rectangle">
+              <div class="values__content">
+                <img src="assets/img/Accommodation.png" alt="" class="values__contentImg">
+                <div class="values__text">Accommodation</div>
+                <p class="values__copy">Pick the right hotels for a realing experience</p>
+              </div>
             </div>
-            <div class="row">Transportation</div>
           </div>
-          <div class="col-2">
-            Images
+          <div class="row values__expert">
+            <div class="values__rectangle">
+              <div class="values__content">
+                <img src="assets/img/Expert Trip Planning.png" alt="" class="values__contentImg">
+                <div class="values__text">Expert Trip Planning</div>
+                <p class="values__copy">Get the best itinerary for a memorable trip</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row values__planTitle">
+            <h6 class="values__planTitle__Trip">
+              Plan Your Trip With Us
+            </h6>
+            <h2 class="values__planTitle__Title">
+              Try Our Services
+            </h2>
+            <p class="values__planTitle__Copy">
+              From choosing the right hotels, planning for transport 
+              and sight-seeing, we take care of all your travel needs 
+              so you can have an unforgettable trip with us.
+            </p>
+          </div>
+          <div class="row values__transportation">
+            <div class="values__rectangle">
+              <div class="values__content">
+                <img src="assets/img/Transportation.png" alt="" class="values__contentImg">
+                <div class="values__text">Transportation</div>
+                <p class="values__copy">Choose from car rentals, bus routes, flights and more</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <section class="topdetails">
+    <div class="container topdetails__container">
+      <div class="row topdetails__slider">
+        <div class="col-5">
+          <div class="row topdetails__content values__planTitle">
+            <h6 class="topdetails__take values__planTitle__Trip">
+              Take A Look At Our
+            </h6>
+            <h2 class="topdetails__title values__planTitle__Title">
+              Top Deals Of The Day
+            </h2>
+            <p class="topdetails__copy values__planTitle__Copy">
+              Get best deals on all your online travel bookings.
+              Book hotels flights bus trains and cabs.
+            </p>
+            <span class="topdetails__offer values__planTitle__Trip">
+              Offer valid till 31st March 2020
+            </span>
+          </div>
+          <div class="row topdetails__slider">
+            <button class="button  button__prev">
+              <img src="assets/img/Vector Smart Object-left.png" alt="" class="button__icon">
+            </button>
+            <button class="button button__next">
+              <img src="assets/img/Vector Smart Object-right.png" alt="" class="button__icon">
+            </button>
+          </div>
+        </div>
+        <div class="col-7 slider">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card slider__card">
+                  <div class="slider__base">
+                    <img class="slider__baseImg" src="assets/img/Thailand.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Thailand Tours and Holidays 2019/2020</h5>
+                    <p class="card-text">Grab a promo code for extra savings up to 75% on
+                      discounted hotels!.</p>
+                    <a href="#" class="btn btn-primary">Plan my Trip</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card slider__card">
+                  <div class="slider__base">
+                    <img class="slider__baseImg" src="assets/img/Paris.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Thailand Tours and Holidays 2019/2020</h5>
+                    <p class="card-text">Grab a promo code for extra savings up to 75% on
+                      discounted hotels!.</p>
+                    <a href="#" class="btn btn-primary">Plan my Trip</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card slider__card">
+                  <div class="slider__base">
+                    <img class="slider__baseImg" src="assets/img/Thailand.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Thailand Tours and Holidays 2019/2020</h5>
+                    <p class="card-text">Grab a promo code for extra savings up to 75% on
+                      discounted hotels!.</p>
+                    <a href="#" class="btn btn-primary">Plan my Trip</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video">
+    <div class="container video__container">
+      <div class="row">
+        <div class="video__frame">
+          <iframe class="video__frame--iframe" src="https://www.youtube.com/embed/coLxfjnrm3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row countdown">
+        <div class="container mt-5 mb-5 pt-3">
+          <div class="owl-carousel owl-theme owl-loaded">
+            <div class="owl-stage-outer ">
+                <div class="owl-stage">
+                    <div class="owl-item">
+                      <div class="owl__countdown">
+                        <h3 class="owl__countdown__number">75K+
+                          <div class="owl__countdown__text">Happy Passenger</div>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="owl-item">
+                      <div class="col3 owl__countdown">
+                        <h3 class="owl__countdown__number">97K+
+                          <div class="owl__countdown__text">Happy User</div>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="owl-item">
+                      <div class="col3 owl__countdown">
+                        <h3 class="owl__countdown__number">500K+
+                          <div class="owl__countdown__text">Flights Search</div>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="owl-item">
+                      <div class="col3 owl__countdown">
+                        <h3 class="owl__countdown__number">75K+
+                          <div class="owl__countdown__text">Real Time Booking</div>
+                        </h3>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script type="module" src="main.js"></script>
+  <script src="dist/owl.carousel.min.js"></script>
+  <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel();
+    // Listen to owl events:
+    owl.on('changed.owl.carousel', function(event) {
+        autoplay: true,
+        autoplayHoverPause
+    });
+  </script>
 </body>
 </html>
