@@ -280,6 +280,64 @@
       font-size: 20px
       font-family: "Roboto"
       color: rgb(49, 54, 86)
+.portfolio
+  position: relative
+  border: 1px solid green 
+  &__container 
+    background-color: rgba(red, 0.2)
+  &__Title 
+    width: 1170px
+    display: block
+  &__subTitle,
+  &__topTitle 
+    text-align: center
+    display: block
+  &__topTitle 
+    padding-bottom: 30px
+  &__header 
+    border: 1px solid green 
+    height: 90px
+    border-radius: 50px
+    position: relative
+    width: 100% 
+    display: flex 
+    align-items: center
+    align-content: center
+    background-image: linear-gradient( -180deg, rgb(246,246,255) 0%, rgb(232,249,255) 100%)
+    &__list 
+      position: relative
+      display: inline-flex 
+    &__item 
+      display: flex
+      padding: 10px 20px
+      width: 117px
+      position: relative
+      justify-content: center
+      background-color: rgba(green, 0.4)
+      margin: 0 40px
+      font-size: 18px
+      font-family: "Bebas Neue"
+      color: rgb(109, 82, 249)
+      line-height: 6.111
+      text-align: center
+      &:not(:first-child)
+        margin-left: 0
+    &__link 
+      border: 1px solid red 
+      height: 60px 
+      border-radius: 50px
+    &__controller
+      padding: 10px 25px
+      border-radius: 10px
+      border: none
+      margin-bottom: 30px
+      font-size: 18px
+      font-family: "Bebas Neue"
+      height: 60px
+      
+
+
+
 @media screen and (max-width: 522px)
   .header 
     &__menu
