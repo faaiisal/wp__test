@@ -13,7 +13,8 @@
 </head>
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light header">
       <a class="navbar-brand header__logo" href="#">
         <img src="assets/img/logo.png" width="192" height="66" class="d-inline-block align-top" alt="" loading="lazy">
       </a>
@@ -38,7 +39,8 @@
         </ul>
         <button class="header__button btn my-2 my-sm-0" type="submit">Login</button>
       </div>
-    </nav>
+      </nav>
+    </header>
     <div class="banner">
      <div class="container banner__container">
        <div class="row">
@@ -136,7 +138,7 @@
   <section class="topdetails">
     <div class="container topdetails__container">
       <div class="row topdetails__slider">
-        <div class="col-5">
+        <div class="col-6">
           <div class="row topdetails__content values__planTitle">
             <h6 class="topdetails__take values__planTitle__Trip">
               Take A Look At Our
@@ -161,7 +163,7 @@
             </button>
           </div>
         </div>
-        <div class="col-7 slider">
+        <div class="col-6 slider">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -219,7 +221,7 @@
       <div class="row countdown">
         <div class="container mt-5 mb-5 pt-3">
           <div class="owl-carousel owl-theme owl-loaded">
-            <div class="owl-stage-outer ">
+            <div class="owl-stage-outer">
                 <div class="owl-stage">
                     <div class="owl-item">
                       <div class="owl__countdown">
@@ -263,54 +265,347 @@
         <h2 class="portfolio__topTitle values__planTitle__Title">Recommended Hotels</h2>
       </div>
       <div class="row portfolio__header">
-        <!-- <div class="portfolio__header__controller">
-          <button class="filter" data-filter="all">All Hotels</button>
-          <button class="filter" data-filter=".category-1">London</button>
-          <button class="filter" data-filter=".category-2">Paris</button>
-          <button class="filter" data-filter=".category-3">Hongkong</button>
-          <button class="filter" data-filter=".category-4">Bangkok</button>
-          <button class="filter" data-filter=".category-5">Singapore</button>
-          <button class="filter" data-filter=".category-6">Tokyo</button>
-        </div> -->
-        <ul class="portfolio__header__list">
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter="all">All Hotels</a>
-          </li>
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter=".category-1">London</a>
-          </li>
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter=".category-2">Paris</a>
-          </li>
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter=".category-3">Hongkong</a>
-          </li>
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter=".category-4">Bangkok</a>
-          </li>
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter=".category-5">Singapore</a>
-          </li>
-          <li class="portfolio__header__item">
-            <a href="" class="porfolio__header__link" data-filter=".category-6">Tokyo</a>
-          </li>
-        </ul>
+        <div class="portfolio__header__ButtonGroup">
+          <button class="filter active" data-filter="all">All Hotels</button>
+          <button class="filter" data-filter=".category-a">London</button>
+          <button class="filter" data-filter=".category-b">Paris</button>
+          <button class="filter" data-filter=".category-c">Hongkong</button>
+          <button class="filter" data-filter=".category-d">Bangkok</button>
+          <button class="filter" data-filter=".category-e">Singapore</button>
+          <button class="filter" data-filter=".category-f">Tokyo</button>
+        </div>
       </div>
-      <!-- <div class="row portfolio__content">Content</div> -->
+      <div class="container">
+        <div class="portfolio__content">
+          <div class="portfoliomixcont">
+           <div class="row">
+            <div class="mix category-a" data-order="all">
+              <div class="card">
+                <img src="assets/img/Image 1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mandapa, a Ritz-Carlton Reserve</h5>
+                  <div class="card-group">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (558 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">New York, USA</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="mix category-b" data-order="2">
+              <div class="card" data-my-order="5">
+                <img src="assets/img/Image 2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hotel The Serras</h5>
+                  <div class="">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.9/5 (238 card-)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Manchester, UK</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="mix category-b category-c" data-order="3">
+              <div class="card" data-my-order="6">
+                <img src="assets/img/Image 3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Aria Hotel Budapest by Library</h5>
+                  <div class="">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (1558 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Paris, France</small></p>
+                </div>
+              </div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="mix category-d" data-order="4">
+              <div class="card" data-my-order="7">
+                <img src="assets/img/Image 4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mandapa, a Ritz-Carlton Reserve</h5>
+                  <div class="card-group">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (238 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Shinta Mani Shack</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="mix category-e" data-order="3">
+              <div class="card" data-my-order="8">
+                <img src="assets/img/Image 5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">lkos Olivia</h5>
+                  <div class="">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.7/5 (558 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Gerakini, Greece</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="mix category-e category-f" data-order="2">
+              <div class="card" data-my-order="9">
+                <img src="assets/img/Image 6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sonia Village Hotel</h5>
+                  <div class="">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (898 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Gerakini, Greece</small></p>
+                </div>
+              </div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="mix category-f" data-order="9">
+              <div class="card" data-my-order="7">
+                <img src="assets/img/Image 7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mandapa, a Ritz-Carlton Reserve</h5>
+                  <div class="card-group">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (238 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Shinta Mani Shack</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="mix category-a" data-order="2">
+              <div class="card" data-my-order="8">
+                <img src="assets/img/Image 8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">lkos Olivia</h5>
+                  <div class="">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.7/5 (558 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Gerakini, Greece</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="mix category-d category-f" data-order="3">
+              <div class="card" data-my-order="9">
+                <img src="assets/img/Image 9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sonia Village Hotel</h5>
+                  <div class="">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (898 Reviews)</span>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Gerakini, Greece</small></p>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>  
+        </div>
+      </div>
     </div>
   </section>
+  <section class="portfolio travelItems">
+    <div class="container portfolio__container">
+      <div class="row portfolio__Title">
+        <h6 class="portfolio__subTitle values__planTitle__Trip">Prepare For Your Trip</h6>
+        <h2 class="portfolio__topTitle values__planTitle__Title">Get These Travel Essentials</h2>
+      </div>
+      <div class="container">
+        <div class="portfolio__content">
+          <div class="portfoliomixcont">
+           <div class="row">
+            <div class="mix">
+              <div class="card travelItems__card">
+                <img src="assets/img/Travel Boots.png" class="travelItems__card__img" alt="...">
+                <div class="card-body travelItems__card--body">
+                  <h5 class="card-title text-center">Travel Boots</h5>
+                  <p class="text-center travelItems__card--text">$250.00</small></p>
+                  <div class="text-center">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (558 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mix">
+              <div class="card travelItems__card" data-my-order="5">
+                <img src="assets/img/Back Pack.png" class="travelItems__card__img travelItems__card__img--bag" alt="...">
+                <div class="card-body travelItems__card--body">
+                  <h5 class="card-title text-center">Back Pack</h5>
+                  <p class="text-center travelItems__card--text">$149.00</p>
+                  <div class="text-center">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (238 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mix">
+              <div class="card travelItems__card" data-my-order="6">
+                <img src="assets/img/Canon Camera.png" class="travelItems__card__img" alt="...">
+                <div class="card-body travelItems__card--body">
+                  <h5 class="card-title text-center">Canon camera</h5>
+                  <p class="text-center travelItems__card--text">$460.00</p>
+                  <div class="text-center">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (1558 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <div class="row">
+            <div class="mix">
+              <div class="card travelItems__card">
+                <img src="assets/img/Summer Ware.png" class="travelItems__card__img" alt="...">
+                <div class="card-body travelItems__card--body">
+                  <h5 class="card-title text-center">Summer Ware</h5>
+                  <p class="text-center travelItems__card--text">$35.00</small></p>
+                  <div class="text-center">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (238 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mix">
+              <div class="card travelItems__card" data-my-order="5">
+                <img src="assets/img/Binocular.png" class="travelItems__card__img travelItems__card__img--bag" alt="...">
+                <div class="card-body travelItems__card--body">
+                  <h5 class="card-title text-center">Binocular</h5>
+                  <p class="text-center travelItems__card--text">$299.00</p>
+                  <div class="text-center">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (238 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mix">
+              <div class="card travelItems__card" data-my-order="6">
+                <img src="assets/img/Cow Boy Hat.png" class="travelItems__card__img" alt="...">
+                <div class="card-body travelItems__card--body">
+                  <h5 class="card-title text-center">Cow Boy Hat</h5>
+                  <p class="text-center travelItems__card--text">$19.00</p>
+                  <div class="text-center">
+                    <span class="card-rating">Hello</span>
+                    <span class="card-reviews">4.5/5 (1558 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="downloadapp">
+    <div class="container downloadapp__container">
+      <div class="row">
+        <!-- <div class="col-5">
+          <h2 class="topdetails__title values__planTitle__Title">
+            Book Your Trip  With Travelry  Mobile App 
+          </h2>
+          <p class="topdetails__copy values__planTitle__Copy">
+            Plan your trip on the go with our mobile apps 
+            available for download on Android & iOS
+
+          </p>
+        </div> -->
+        <div class="col-5">
+          <div class="row topdetails__content values__planTitle">
+            <h2 class="topdetails__title values__planTitle__Title">
+              Book Your Trip  With Travelry  Mobile App 
+            </h2>
+            <p class="topdetails__copy values__planTitle__Copy">
+              Plan your trip on the go with our mobile apps 
+              available for download on Android & iOS
+            </p>
+          </div>
+          <div class="row buttongroup">
+            <button class="buttongroup buttongroup__googleplaystore">
+              <img src="assets/img/google-playstore.png" alt="" class="">
+            </button>
+            <button class="buttongroup buttongroup__appstore">
+              <img src="assets/img/appstore.png" alt="" class="">
+            </button>
+          </div>
+        </div>
+        <div class="col-7">
+          <!-- <div class="row mockup">
+            <div class="col-6">
+              <div class="mockup__front">
+                <img src="assets/img/Mockup-front.png" alt="" class="mockup__front--img">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="mockup__back">
+                <img src="assets/img/Mockup-front.png" alt="" class="mockup__back--img">
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="mockup">
+            <img src="assets/img/Mockup-front.png" alt="" class="mockup__front">
+          </div> -->
+          <div class="mockup">
+            <img src="assets/img/Mockup-front.png" alt="" class="mockup__frontimg">
+            <img src="assets/img/Mockup-front.png" alt="" class="mockup__backimg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="row">
+        <div class="col-12 footer__container--logo">
+          <img src="assets/img/logo.png" alt="" class="footer__container--logoimg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 footer__container--booking">
+          Get best deals on all your online travel bookings.
+          Book hotels flights bus trains and cabs.
+        </div>
+        <div class="col-4 footer__container--copyright">
+          <span class="copyright">©</span> Copyright 2020. Powered by WPDeveloper
+        </div>
+        <div class="col-3 footer__container--group">
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/facebook.png" alt="" class="footer__container--icon">
+          </a>
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/twitter.png" alt="" class="footer__container--icon">
+          </a>
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/linkedin.png" alt="" class="footer__container--icon">
+          </a>
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/Instra.png" alt="" class="footer__container--icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <script type="module" src="main.js"></script>
   <script src="dist/owl.carousel.min.js"></script>
+  <script src="dist/mixitup.min.js"></script>
+  <script>
+    var config = document.querySelector('.portfoliomixcont');
+    var mixer = mixitup(config);
+    </script>
   <script>
     var owl = $('.owl-carousel');
     owl.owlCarousel();
     // Listen to owl events:
     owl.on('changed.owl.carousel', function(event) {
-        autoplay: true,
-        autoplayHoverPause
+      autoplay: true,
+      autoplayHoverPause
     });
   </script>
 </body>
