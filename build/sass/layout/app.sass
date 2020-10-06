@@ -20,6 +20,9 @@
     color: $black
     border-radius: 5px
     border-image: linear-gradient(45deg, rgb(255,175,189), rgb(255,195,160)) 1
+    &:focus,
+    &:active 
+      outline: none
 .navbar-light .navbar-nav .active>.nav-link
   color: rgb(109, 82, 249)
 .navbar-light .navbar-nav .nav-link
@@ -325,6 +328,8 @@
           box-shadow: 0px 20px 20px 0px rgba(109, 82, 249, 0.1)
           border-radius: 50px
           color: #ffffff
+        &:focus 
+          outline: none
       .filter
         &:first-child
           margin-left: 60px
@@ -438,7 +443,8 @@
       img 
         width: 100% 
 .footer
-  background: url("/assets/img/Vector Smart Object-footer.png") no-repeat left top , linear-gradient( -90deg, rgb(255,255,255) 0%, rgb(233,249,255) 100%)
+  background: url("/assets/img/Vector Smart Object-footer.png") no-repeat left top
+  background-size: cover
   min-height: 455px 
   &__container
     padding-top: 152px
