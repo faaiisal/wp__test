@@ -1034,10 +1034,9 @@ svg
 
     width: 350px;
     height: 150px;
-    margin-right: 10px;
+    margin-right: 10px; 
     margin-left: 10px;
 
-    border: 1px solid red; 
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 10px 100px 0 rgba(109, 82, 249, .08);
