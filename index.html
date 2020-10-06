@@ -13,7 +13,8 @@
 </head>
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light header">
       <a class="navbar-brand header__logo" href="#">
         <img src="assets/img/logo.png" width="192" height="66" class="d-inline-block align-top" alt="" loading="lazy">
       </a>
@@ -38,7 +39,8 @@
         </ul>
         <button class="header__button btn my-2 my-sm-0" type="submit">Login</button>
       </div>
-    </nav>
+      </nav>
+    </header>
     <div class="banner">
      <div class="container banner__container">
        <div class="row">
@@ -219,7 +221,7 @@
       <div class="row countdown">
         <div class="container mt-5 mb-5 pt-3">
           <div class="owl-carousel owl-theme owl-loaded">
-            <div class="owl-stage-outer ">
+            <div class="owl-stage-outer">
                 <div class="owl-stage">
                     <div class="owl-item">
                       <div class="owl__countdown">
@@ -533,42 +535,77 @@
           </div>
         </div>
         <div class="col-7">
-          <div class="row">
+          <!-- <div class="row mockup">
             <div class="col-6">
-              <div class="mockup">
-                <img src="assets/img/Mockup-front.png" alt="" class="mockup__front">
+              <div class="mockup__front">
+                <img src="assets/img/Mockup-front.png" alt="" class="mockup__front--img">
               </div>
             </div>
             <div class="col-6">
-              <div class="mockup">
-                <img src="assets/img/Mockup-front.png" alt="" class="mockup__back">
+              <div class="mockup__back">
+                <img src="assets/img/Mockup-front.png" alt="" class="mockup__back--img">
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- <div class="mockup">
             <img src="assets/img/Mockup-front.png" alt="" class="mockup__front">
           </div> -->
+          <div class="mockup">
+            <img src="assets/img/Mockup-front.png" alt="" class="mockup__frontimg">
+            <img src="assets/img/Mockup-front.png" alt="" class="mockup__backimg">
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="row">
+        <div class="col-12 footer__container--logo">
+          <img src="assets/img/logo.png" alt="" class="footer__container--logoimg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 footer__container--booking">
+          Get best deals on all your online travel bookings.
+          Book hotels flights bus trains and cabs.
+        </div>
+        <div class="col-4 footer__container--copyright">
+          <span class="copyright">©</span> Copyright 2020. Powered by WPDeveloper
+        </div>
+        <div class="col-3 footer__container--group">
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/facebook.png" alt="" class="footer__container--icon">
+          </a>
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/twitter.png" alt="" class="footer__container--icon">
+          </a>
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/linkedin.png" alt="" class="footer__container--icon">
+          </a>
+          <a href="" class="footer__container--icons">
+            <img src="assets/img/Instra.png" alt="" class="footer__container--icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <script type="module" src="main.js></script>
   <script src="dist/owl.carousel.min.js"></script>
   <script src="dist/mixitup.min.js"></script>
   <script>
     var config = document.querySelector('.portfoliomixcont');
     var mixer = mixitup(config);
-  </script>
+    </script>
   <script>
     var owl = $('.owl-carousel');
     owl.owlCarousel();
     // Listen to owl events:
     owl.on('changed.owl.carousel', function(event) {
-        autoplay: true,
-        autoplayHoverPause
+      autoplay: true,
+      autoplayHoverPause
     });
   </script>
 </body>

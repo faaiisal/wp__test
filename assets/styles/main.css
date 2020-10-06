@@ -1021,6 +1021,11 @@ svg
     border-radius: 30px;
 }
 
+.owl-item
+{
+    position: relative;
+}
+
 .owl__countdown
 {
     position: relative;
@@ -1029,9 +1034,10 @@ svg
 
     width: 350px;
     height: 150px;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-left: 10px;
 
+    border: 1px solid red; 
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 10px 100px 0 rgba(109, 82, 249, .08);
@@ -1293,24 +1299,87 @@ svg
 .downloadapp .mockup
 {
     position: relative;
+    top: 0;
+    left: 0;
 }
-.downloadapp .mockup__front
+.downloadapp .mockup__frontimg
 {
-    z-index: 999;
+    position: relative;
+    z-index: 1; 
+    top: 0;
+    left: 0;
 
-    margin-top: 20px;
-    margin-left: 115px;
-
-    opacity: 1;
+    margin-left: 150px;
 }
-.downloadapp .mockup__back
+.downloadapp .mockup__backimg
 {
-    z-index: -1; 
+    position: absolute;
+    top: 0;
+    left: 0;
 
     margin-top: -45px;
-    margin-left: -50px;
+    margin-left: 340px;
 
-    opacity: .25;
+    opacity: .20;
+}
+.downloadapp .mockup__backimg img
+{
+    width: 100%;
+}
+
+.footer
+{
+    min-height: 455px; 
+
+    background: url('/assets/img/Vector Smart Object-footer.png') no-repeat left top, linear-gradient(-90deg, white 0%, #e9f9ff 100%);
+}
+.footer__container
+{
+    height: 455px;
+    padding: 0; 
+    padding-top: 152px;
+}
+.footer__container--logo
+{
+    padding-bottom: 40px;
+}
+.footer__container--booking
+{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.667;
+
+    text-align: left; 
+
+    color: #8c969f;
+}
+.footer__container--copyright,
+.footer__container .copyright
+{
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    line-height: 1.875;
+
+    padding: 16px 0 15px; 
+
+    text-align: left;
+
+    color: #8c969f;
+}
+.footer__container--group
+{
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-items: center;
+}
+.footer__container--icon
+{
+    width: 40px;
+    height: 40px; 
+    margin: 0 10px;
 }
 
 @media screen and (max-width: 522px)
