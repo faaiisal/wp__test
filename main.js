@@ -1,12 +1,12 @@
-$(document).ready(function() {
-  $("#news-slider").owlCarousel({
-      items : 3,
-      itemsDesktop:[1199,3],
-      itemsDesktopSmall:[980,2],
-      itemsMobile : [600,1],
-      navigation:true,
-      navigationText:["",""],
-      pagination:true,
-      autoPlay:true
+$(function () {
+  $('.portfolio-item').mixItUp();
+});
+jQuery(document).ready(function ($) {
+  $('.pie_progress').asPieProgress({
+      namespace: 'pie_progress',
+  speed: 50,
+  easing: 'linear'
   });
+
+  $('.pie_progress').asPieProgress('start');
 });
